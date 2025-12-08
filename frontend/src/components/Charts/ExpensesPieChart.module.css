@@ -1,0 +1,40 @@
+.chartContainer {
+    width: 100%;
+    padding: var(--spacing-lg);
+}
+
+.emptyState {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    color: var(--color-text-tertiary);
+    font-size: var(--font-size-base);
+}
+
+.tooltip {
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-lg);
+}
+
+.tooltipLabel {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.tooltipValue {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary-light);
+    margin-bottom: var(--spacing-xs);
+}
+
+.tooltipPercent {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+}
